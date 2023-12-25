@@ -1,5 +1,5 @@
 # WebGPU Samples
 
-[HOME](https://azebii.github.io/webgpu/)
+[TOP](https://azebii.github.io/webgpu/)
 
 Created by Azebii.
