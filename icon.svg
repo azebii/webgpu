@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<svg
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16">
+    
+    <rect
+        fill="#000"
+        x="0"
+        y="0"
+        rx="1"
+        ry="1"
+        width="16"
+        height="16"
+    />
+    <path
+        fill="#FFF"
+        d="
+            M 2, 5
+            l 4, 6
+            l 2,-3
+            l 2, 3
+            l 4,-6
+            Z
+        "
+    />
+</svg>
