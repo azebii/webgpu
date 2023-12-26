@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
         <meta charset="utf-8">
+        <meta property="og:url" content="https://azebii.github.io/webgpu/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="TOP" />
+        <meta property="og:description" content="Samples of WebGPU created by Azebii." />
+        <meta property="og:site_name" content="WebGPU Samples" />
+        <meta property="og:image" content="./icon.svg" />
         <title>TOP | WebGPU Samples</title>
 	    <link rel="icon" href="./icon.svg">
-        <link rel="stylesheet" href="./style.css">
+        <style>
+            a {
+                background-color: #FFF;
+                color: #000;
+                margin: 0.25em;
+                padding: 0.5em 1em;
+                border-radius: 1em;
+                text-decoration: none;
+            }
+
+            li {
+                padding: 0.5em;
+            }
+
+            ol {
+                padding: 0 0 0 2em;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            body {
+                background-color: #000;
+                color: #FFF;
+                padding: 1em;
+            }
+
+            body, html {
+                width: 100svw;
+                height: 100svh;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                font-size: 4svmin;
+                line-height: 2em;
+                box-sizing: border-box;
+            }
+        </style>
     </head>
     <body>
-        <h1>WebGPU Samples</h1>
+        <h1>WebGPU Compact Samples</h1>
+        <header>
+            Each sample is combined into 1 file.
+            You can start reading the code for any sample.
+        </header>
         <ol start="0">
-            <li><a href="./0-white-model/">White Model</a></li>
+            <li>
+                White Model
+                <a href="./samples/0-white-model.html">
+                    PLAY
+                </a>
+                <a href="https://github.com/azebii/webgpu/blob/main/samples/0-white-model.html">
+                    CODE
+                </a>
+            </li>
+            <li>
+                Vertex Colored Model
+                <a href="./samples/1-vertex-colored-model.html">
+                    PLAY
+                </a>
+                <a href="https://github.com/azebii/webgpu/blob/main/samples/1-vertex-colored-model.html">
+                    CODE
+                </a>
+            </li>
         </ol>
+        <footer>
+            This website is created by Azebii.
+        </footer>
     </body>
 </html>
