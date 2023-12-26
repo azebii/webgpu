@@ -1,4 +1,4 @@
-# WebGPU Samples
+# WebGPU Compact Samples
 
 [TOP](https://azebii.github.io/webgpu/)
 
