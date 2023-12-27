@@ -1,6 +1,4 @@
-# WebGPU Compact Samples
-
-Each sample is combined into 1 file. You can start reading the code for any sample.
+# WebGPU 1 file Samples
 
 [TOP](https://azebii.github.io/webgpu/)
 
