@@ -5,27 +5,30 @@
         <meta property="og:url" content="https://azebii.github.io/webgpu/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="TOP" />
-        <meta property="og:description" content="Compact 1 file Samples of WebGPU created by Azebii." />
-        <meta property="og:site_name" content="WebGPU Compact Samples" />
+        <meta property="og:description" content="1 file samples of WebGPU created by Azebii." />
+        <meta property="og:site_name" content="WebGPU 1 file Samples" />
         <meta property="og:image" content="./icon.svg" />
-        <title>TOP | WebGPU Compact Samples</title>
+        <title>TOP | WebGPU 1 file Samples</title>
 	    <link rel="icon" href="./icon.svg">
         <style>
+            a.azebii {
+                background-color: #F00;
+            }
+            
             a {
                 background-color: #FFF;
                 color: #000;
-                margin: 0.25em;
                 padding: 0.5em 1em;
                 border-radius: 1em;
                 text-decoration: none;
             }
 
             li {
-                padding: 0.5em;
+                padding: 0.5em 0;
             }
 
             ol {
-                padding: 0 0 0 2em;
+                padding: 0.5em 0 0.5em 2em;
             }
 
             h1 {
@@ -54,42 +57,33 @@
         </style>
     </head>
     <body>
-        <h1>WebGPU Compact Samples</h1>
+        <h1>WebGPU 1 file Samples</h1>
         <header>
-            Each sample is combined into 1 file.
-            You can start reading the code for any sample.
+            <p>Each sample is combined into 1 file.</p>
+            <p>You can start reading the code for any sample.</p>
+            <p>These samples currently only work on PC Chrome.</p>
         </header>
-        <ol start="0">
-            <li>
-                White Model
-                <a href="./samples/0-white-model.html">
-                    PLAY
-                </a>
-                <a href="https://github.com/azebii/webgpu/blob/main/samples/0-white-model.html">
-                    CODE
-                </a>
-            </li>
-            <li>
-                Vertex Colored Model
-                <a href="./samples/1-vertex-colored-model.html">
-                    PLAY
-                </a>
-                <a href="https://github.com/azebii/webgpu/blob/main/samples/1-vertex-colored-model.html">
-                    CODE
-                </a>
-            </li>
-            <li>
-                Vertex Lighted Model
-                <a href="./samples/2-vertex-lighted-model.html">
-                    PLAY
-                </a>
-                <a href="https://github.com/azebii/webgpu/blob/main/samples/2-vertex-lighted-model.html">
-                    CODE
-                </a>
-            </li>
-        </ol>
+        <nav>
+            <ol start="0">
+                <li>
+                    White 3D Model
+                    <a href="./samples/0-white.html">PLAY</a>
+                    <a href="https://github.com/azebii/webgpu/blob/main/samples/0-white.html">CODE</a>
+                </li>
+                <li>
+                    Vertex Colored 3D Model
+                    <a href="./samples/1-vertex-colored.html">PLAY</a>
+                    <a href="https://github.com/azebii/webgpu/blob/main/samples/1-vertex-colored.html">CODE</a>
+                </li>
+                <li>
+                    Vertex Diffuse Lighted 3D Model
+                    <a href="./samples/2-vertex-diffuse-lighted.html">PLAY</a>
+                    <a href="https://github.com/azebii/webgpu/blob/main/samples/2-vertex-diffuse-lighted.html">CODE</a>
+                </li>
+            </ol>
+        </nav>
         <footer>
-            This website is created by Azebii.
+            <p>This website is created by <a class="azebii" href="https://github.com/azebii">Azebii</a>.</p>
         </footer>
     </body>
 </html>
